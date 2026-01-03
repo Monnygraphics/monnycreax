@@ -1,0 +1,1027 @@
+{
+  "siteMetadata": {
+    "brandName": "MonnyCreaX",
+    "tagline": "Where Clarity Meets Creativity",
+    "founderName": "Bethwel Monny",
+    "founderTitle": "Brand Strategist",
+    "location": "Nairobi, Kenya",
+    "contact": {
+      "email": "monnybethwel@gmail.com",
+      "whatsapp": "+254758434092",
+      "whatsappDisplay": "+254 758 434 092",
+      "instagram": "@monnycreax",
+      "linkedin": "",
+      "workingHours": {
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM (EAT)",
+        "saturday": "Limited availability",
+        "sunday": "Closed"
+      },
+      "servingClients": "East Africa, Africa, and globally (English-speaking)"
+    },
+    "year": "2026",
+    "copyright": "© 2026 MonnyCreaX. All rights reserved."
+  },
+  "pages": {
+    "homepage": {
+      "meta": {
+        "title": "MonnyCreaX - Brand Strategy & Direction",
+        "description": "Brand strategy and direction for founders, speakers, and thought leaders. MonnyCreaX helps you turn scattered ideas into clear, credible brands through strategic clarity."
+      },
+      "hero": {
+        "headline": "Turn Scattered Ideas Into Clear, Credible Brands",
+        "subheadline": "Brand strategy and direction for founders, speakers, and thought leaders who are ready to stop guessing and start growing.",
+        "ctaButtons": [
+          {
+            "text": "Book Brand Clarity Intensive",
+            "type": "primary",
+            "link": "#services"
+          },
+          {
+            "text": "View Services",
+            "type": "secondary",
+            "link": "#services"
+          }
+        ],
+        "supportingText": "You have strong ideas. You work hard. You show up consistently. But your message feels scattered, people engage but don't convert, and you're explaining yourself over and over without clarity.\n\nThat ends here."
+      },
+      "about": {
+        "headline": "Strategy Before Aesthetics. Clarity Before Creativity.",
+        "body": "I'm Bethwel Monny, a brand strategist who helps leaders build brands that don't just look good—they make sense.\n\nAt MonnyCreaX, I don't start with logos or colors. I start with the hard questions: Who are you? What do you stand for? Why should anyone care?\n\nBecause beautiful design without strategic foundation is just decoration. And your brand deserves more than that.",
+        "subtext": "African creativity meets global strategy. Purpose-driven branding for leaders who are ready to communicate with confidence.",
+        "cta": {
+          "text": "Learn More About My Process →",
+          "link": "/process"
+        }
+      },
+      "problem": {
+        "headline": "Does This Sound Like You?",
+        "problems": [
+          {
+            "title": "You're Active But Not Effective",
+            "description": "You post consistently, show up online, and work hard—but nothing's converting. Your brand looks busy but feels scattered."
+          },
+          {
+            "title": "You Explain Yourself Repeatedly",
+            "description": "Every conversation, you're re-explaining your vision. Your message changes depending on who's asking. There's no clarity, no consistency."
+          },
+          {
+            "title": "You're Ready to Scale But Your Brand Won't Support It",
+            "description": "You have the talent, the vision, and the work ethic. But your brand identity can't carry the growth you're building toward."
+          }
+        ],
+        "cta": {
+          "text": "Let's Fix It →",
+          "link": "/contact"
+        },
+        "supportingText": "If you recognize yourself here, it's not a creativity problem. It's a clarity problem."
+      },
+      "solution": {
+        "headline": "What I Do (And How I'm Different)",
+        "body": "I help founders, speakers, and thought leaders define their brand essence, clarify their positioning, and build strategic direction—so they can communicate with confidence and grow with intention.",
+        "pillars": [
+          {
+            "title": "Strategy First",
+            "description": "Every brand starts with clarity. I ask the hard questions, define your positioning, and build the strategic foundation everything else rests on."
+          },
+          {
+            "title": "Messaging That Lands",
+            "description": "Your audience doesn't need to be convinced you're creative. They need to understand what you do, who it's for, and why it matters—in 5 seconds."
+          },
+          {
+            "title": "Direction You Can Implement",
+            "description": "You don't just get a document. You get a roadmap, frameworks, and the confidence to show up consistently without second-guessing every decision."
+          }
+        ]
+      },
+      "howItWorks": {
+        "headline": "The MonnyCreaX Process",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Book Your Session",
+            "description": "Choose the Brand Clarity Intensive that fits your needs. We'll schedule a time that works for you."
+          },
+          {
+            "number": 2,
+            "title": "Complete Intake",
+            "description": "Fill out a detailed intake form so I understand your brand, challenges, and vision before we meet."
+          },
+          {
+            "number": 3,
+            "title": "The Intensive (3-4 Hours)",
+            "description": "We work through discovery, positioning, messaging, and strategic direction in one focused session."
+          },
+          {
+            "number": 4,
+            "title": "Receive Your Blueprint",
+            "description": "Within 3-5 days, you get a comprehensive Brand Clarity Blueprint with everything documented, plus a follow-up strategy call."
+          }
+        ],
+        "cta": {
+          "text": "Start Here →",
+          "link": "/contact"
+        }
+      },
+      "servicesOverview": {
+        "headline": "How We Can Work Together",
+        "services": [
+          {
+            "title": "Brand Clarity Intensive",
+            "description": "A focused strategy session to define your brand positioning, messaging, and direction in one day.",
+            "investment": "$500 - $1,200",
+            "timeline": "2-3 weeks",
+            "cta": {
+              "text": "Learn More →",
+              "link": "/services#intensive"
+            }
+          },
+          {
+            "title": "Brand Strategy Retainer",
+            "description": "Monthly strategic guidance for leaders who need ongoing brand direction and decision-making support.",
+            "investment": "$1,500 - $2,000/month",
+            "timeline": "3 months minimum",
+            "cta": {
+              "text": "Learn More →",
+              "link": "/services#retainer"
+            }
+          },
+          {
+            "title": "Brand Audit & Consultation",
+            "description": "Quick diagnostic and strategic feedback for brands needing external perspective without full intensive.",
+            "investment": "$300 - $400",
+            "timeline": "3-5 days",
+            "cta": {
+              "text": "Learn More →",
+              "link": "/services#audit"
+            }
+          }
+        ]
+      },
+      "socialProof": {
+        "headline": "What Clients Say",
+        "testimonials": [
+          {
+            "quote": "Bethwel didn't just design our brand—he helped us understand who we are. The clarity he brought transformed how we communicate with our audience.",
+            "author": "[Client Name]",
+            "title": "[Title/Company]"
+          },
+          {
+            "quote": "Professional, strategic, and incredibly thoughtful. MonnyCreaX delivered beyond our expectations.",
+            "author": "[Client Name]",
+            "title": "[Title/Company]"
+          },
+          {
+            "quote": "I went from explaining my business in 10 different ways to having ONE clear message that actually lands.",
+            "author": "[Client Name]",
+            "title": "Founder"
+          }
+        ],
+        "cta": {
+          "text": "View Case Studies →",
+          "link": "/portfolio"
+        }
+      },
+      "cta": {
+        "headline": "Ready to Get Clear?",
+        "body": "Stop guessing. Stop explaining. Stop feeling scattered.\n\nLet's build a brand that makes sense—to you, to your audience, and to your future.",
+        "ctaButtons": [
+          {
+            "text": "Book Brand Clarity Intensive",
+            "type": "primary",
+            "link": "/contact"
+          },
+          {
+            "text": "Send a Message",
+            "type": "secondary",
+            "link": "/contact"
+          }
+        ]
+      }
+    },
+    "about": {
+      "meta": {
+        "title": "About Bethwel Monny - MonnyCreaX",
+        "description": "Meet Bethwel Monny, brand strategist and founder of MonnyCreaX. Helping African leaders build brands that make sense through strategy-first approach."
+      },
+      "hero": {
+        "headline": "I'm Bethwel Monny",
+        "subheadline": "Brand Strategist. Creative Director. Clarity Builder.",
+        "image": "professional-photo.jpg"
+      },
+      "story": {
+        "headline": "The Story Behind MonnyCreaX",
+        "body": "MonnyCreaX began with a simple realization: most brands don't fail because they lack creativity. They fail because they lack clarity.\n\nI've spent years working with founders, speakers, ministry leaders, and entrepreneurs—all brilliant people with powerful ideas. But too many of them were invisible, not because they weren't talented, but because they couldn't articulate who they were or why anyone should care.\n\nThat's what I fix.\n\nI'm not here to make your brand \"pretty.\" I'm here to make it make sense. To help you define your positioning, clarify your messaging, and build strategic direction so you can grow with confidence—not confusion.",
+        "philosophy": "I believe African creativity doesn't need to imitate the West. We have our own voice, our own stories, our own strategic intelligence. My work is about translating that authenticity into brands that command respect globally.\n\nStrategy first. Design second. Purpose always."
+      },
+      "approach": {
+        "headline": "How I Work",
+        "body": "I don't start with aesthetics. I start with questions.",
+        "questions": [
+          "Who are you, really?",
+          "What do you stand for?",
+          "Who are you speaking to?",
+          "What problem do you solve?",
+          "Why should they choose you?",
+          "What do you want them to feel?"
+        ],
+        "conclusion": "Most designers skip these. I don't. Because without strategic clarity, even the most beautiful brand is just decoration."
+      },
+      "values": {
+        "headline": "What I Stand For",
+        "values": [
+          {
+            "title": "Authenticity Over Perfection",
+            "description": "Real beats polished. Your brand should sound like you, not like everyone else."
+          },
+          {
+            "title": "Clarity Over Creativity",
+            "description": "If it's beautiful but confusing, it failed. Clarity is the foundation of every strong brand."
+          },
+          {
+            "title": "Strategy Over Speed",
+            "description": "I don't rush. I think deeply, ask hard questions, and build foundations that last."
+          },
+          {
+            "title": "Service Over Sales",
+            "description": "I'm not here to convince you. I'm here to serve leaders who are ready for clarity."
+          },
+          {
+            "title": "Purpose Over Profit",
+            "description": "This work is ministry, not just business. I'm called to help leaders communicate with confidence."
+          }
+        ]
+      },
+      "background": {
+        "headline": "My Background",
+        "body": "I'm based in Nairobi, Kenya, and I work with clients across East Africa and globally.\n\nI've worked with:\n- Startup founders building their first brand\n- Established speakers repositioning for growth\n- Ministry leaders clarifying their message\n- Entrepreneurs scaling beyond their current identity\n\nEvery project is different, but the need is always the same: clarity.",
+        "education": "[Add relevant background—courses, certifications, years in field, notable projects]"
+      },
+      "whyMonnyCreaX": {
+        "headline": "Why Work With Me?",
+        "reasons": [
+          {
+            "title": "Strategy-First Approach",
+            "description": "I don't guess. I research, ask questions, and build strategic foundations before anything visual happens."
+          },
+          {
+            "title": "African Voice, Global Standard",
+            "description": "I understand both worlds. I help you own your authentic voice while meeting international professional standards."
+          },
+          {
+            "title": "Transformation, Not Transactions",
+            "description": "I'm not here for quick projects. I'm here for leaders ready to invest in getting it right—once."
+          }
+        ]
+      },
+      "cta": {
+        "headline": "Let's Work Together",
+        "body": "If you're ready to move from confusion to clarity, from scattered to strategic, let's talk.",
+        "ctaButtons": [
+          {
+            "text": "Book a Brand Clarity Intensive",
+            "type": "primary",
+            "link": "/contact"
+          },
+          {
+            "text": "Send Me a Message",
+            "type": "secondary",
+            "link": "/contact"
+          }
+        ]
+      }
+    },
+    "services": {
+      "meta": {
+        "title": "Services - Brand Strategy & Clarity | MonnyCreaX",
+        "description": "Brand Clarity Intensive, Strategy Retainers, and Brand Audits for leaders ready to move from confusion to clarity. Based in Nairobi, serving clients globally."
+      },
+      "header": {
+        "headline": "Services",
+        "subheadline": "Strategic brand clarity for leaders who are done guessing and ready to grow."
+      },
+      "services": [
+        {
+          "id": "intensive",
+          "title": "Brand Clarity Intensive",
+          "tagline": "Stop guessing. Start growing.",
+          "overview": "A focused, strategic session where we define your brand positioning, messaging, and direction in one concentrated experience. You walk away with complete clarity and a roadmap to implement it.",
+          "whoItsFor": [
+            "Founders with strong ideas but unclear messaging",
+            "Speakers building authority and credibility",
+            "Thought leaders ready to scale",
+            "Ministry leaders whose vision isn't translating",
+            "Entrepreneurs who've outgrown their current brand"
+          ],
+          "whatYouGet": {
+            "duringSession": [
+              "Brand essence & positioning defined",
+              "Audience mapping and insights",
+              "Complete messaging framework",
+              "Visual direction brief",
+              "60-day implementation roadmap"
+            ],
+            "afterSession": [
+              "Brand Clarity Blueprint (PDF, 15-25 pages)",
+              "All frameworks documented",
+              "Strategic recommendations",
+              "Resource list and next steps"
+            ],
+            "followUp": [
+              "1-hour strategy call",
+              "Questions answered",
+              "Implementation guidance",
+              "Confidence boost"
+            ]
+          },
+          "pricingTiers": [
+            {
+              "name": "Rapid Intensive",
+              "price": "$500",
+              "description": "Streamlined session, essential clarity document, 30-day roadmap, 30-minute follow-up call.",
+              "bestFor": "Solo founders, tight budgets, focused scope."
+            },
+            {
+              "name": "Standard Intensive",
+              "price": "$750",
+              "description": "Full 3-4 hour session, complete Brand Clarity Blueprint, 60-day roadmap, 1-hour follow-up, 14 days support.",
+              "bestFor": "Most clients seeking comprehensive clarity."
+            },
+            {
+              "name": "Premium Intensive",
+              "price": "$1,200",
+              "description": "Extended 5-hour session, complete blueprint, 3 monthly check-ins, basic visual mockups, social profile optimization, priority support.",
+              "bestFor": "Leaders ready for immediate implementation with ongoing guidance."
+            }
+          ],
+          "timeline": "2-3 weeks from booking to completion",
+          "ctaButtons": [
+            {
+              "text": "Book Your Intensive",
+              "type": "primary",
+              "link": "/contact"
+            },
+            {
+              "text": "Download Sample Blueprint",
+              "type": "secondary",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "id": "retainer",
+          "title": "Brand Strategy Retainer",
+          "tagline": "Ongoing strategic guidance for growing brands.",
+          "overview": "Monthly strategic partnership for leaders who need consistent brand direction, not just one-time clarity. Perfect for brands in growth mode or launching new initiatives.",
+          "whoItsFor": [
+            "Clients who completed an intensive and want ongoing support",
+            "Growing organizations needing consistent strategic input",
+            "Leaders launching quarterly initiatives",
+            "Brands in active growth phase"
+          ],
+          "whatYouGet": {
+            "monthly": [
+              "2 strategy sessions (60 minutes each)",
+              "Unlimited email/WhatsApp support",
+              "Brand asset review and feedback",
+              "Content direction and planning",
+              "Messaging refinement",
+              "Decision-making support"
+            ],
+            "quarterlyBonus": [
+              "Comprehensive brand audit",
+              "Updated positioning documents",
+              "Strategic planning session"
+            ]
+          },
+          "investment": "$1,500 - $2,000/month",
+          "commitment": "3 months minimum",
+          "availability": "Limited to 3 retainer clients at a time",
+          "ctaButtons": [
+            {
+              "text": "Inquire About Retainer",
+              "type": "primary",
+              "link": "/contact"
+            },
+            {
+              "text": "Schedule Consultation",
+              "type": "secondary",
+              "link": "/contact"
+            }
+          ]
+        },
+        {
+          "id": "audit",
+          "title": "Brand Audit & Consultation",
+          "tagline": "Quick strategic feedback without full intensive.",
+          "overview": "A diagnostic review of your brand with strategic recommendations. Perfect for leaders wanting external perspective or testing the waters before a full intensive.",
+          "whoItsFor": [
+            "Brands needing specific feedback, not full strategy",
+            "Organizations wanting external audit",
+            "Leaders considering full intensive but want to start smaller",
+            "Quick wins before bigger engagement"
+          ],
+          "whatYouGet": [
+            "Review of all brand touchpoints",
+            "Messaging analysis",
+            "Visual identity assessment",
+            "Competitor positioning review",
+            "Strategic recommendations (5-10 page report)",
+            "30-minute feedback call"
+          ],
+          "investment": "$300 - $400",
+          "timeline": "3-5 days after receiving materials",
+          "ctaButtons": [
+            {
+              "text": "Request Brand Audit",
+              "type": "primary",
+              "link": "/contact"
+            },
+            {
+              "text": "See Sample Report",
+              "type": "secondary",
+              "link": "#"
+            }
+          ]
+        }
+      ],
+      "addOnServices": {
+        "headline": "Additional Support",
+        "services": [
+          {
+            "title": "Speaking & Workshops",
+            "description": "Brand strategy talks and workshops for teams, conferences, and organizations.",
+            "investment": "Custom pricing based on scope"
+          },
+          {
+            "title": "Execution Support",
+            "description": "Logo design, brand guidelines, website design—after strategy is complete.",
+            "investment": "Quoted separately"
+          },
+          {
+            "title": "Rush Service",
+            "description": "Need clarity fast? Rush delivery available for 25% additional fee.",
+            "investment": "25% additional fee"
+          }
+        ]
+      },
+      "howToChoose": {
+        "headline": "Which Service Is Right for You?",
+        "decisionTree": [
+          {
+            "service": "Brand Audit",
+            "chooseIf": [
+              "You need quick feedback",
+              "You're not sure what's wrong",
+              "You want to test working together",
+              "Budget is tight right now"
+            ]
+          },
+          {
+            "service": "Brand Clarity Intensive",
+            "chooseIf": [
+              "You need complete strategic clarity",
+              "You're ready to invest in getting it right",
+              "You want comprehensive frameworks",
+              "You're serious about growth"
+            ]
+          },
+          {
+            "service": "Brand Strategy Retainer",
+            "chooseIf": [
+              "You've completed an intensive",
+              "You need ongoing strategic guidance",
+              "You're in active growth mode",
+              "You value monthly strategic partnership"
+            ]
+          }
+        ],
+        "cta": {
+          "text": "Still not sure? Let's talk.",
+          "link": "/contact",
+          "buttonText": "Schedule Free 15-Min Consultation"
+        }
+      }
+    },
+    "process": {
+      "meta": {
+        "title": "Our Process - How We Work | MonnyCreaX",
+        "description": "From first contact to final delivery, here's exactly what to expect when working with MonnyCreaX for brand strategy and clarity."
+      },
+      "hero": {
+        "headline": "How We Work Together",
+        "subheadline": "From first contact to final delivery, here's exactly what to expect."
+      },
+      "phases": [
+        {
+          "title": "Phase 1: Inquiry to Booking",
+          "steps": [
+            {
+              "number": 1,
+              "title": "Initial Contact",
+              "description": "You DM \"CLARITY\" on Instagram, email me, or fill out the contact form. I respond within 4 hours."
+            },
+            {
+              "number": 2,
+              "title": "Quick Qualification Chat (15 min)",
+              "description": "We hop on a brief call to ensure we're a good fit. I ask about your challenge, timeline, and goals."
+            },
+            {
+              "number": 3,
+              "title": "Proposal & Payment",
+              "description": "I send you the service details and pricing. You choose your tier, I send an invoice, and once payment is received, we book your session date."
+            }
+          ]
+        },
+        {
+          "title": "Phase 2: Preparation",
+          "steps": [
+            {
+              "number": 1,
+              "title": "Intake Form (You complete)",
+              "description": "Within 24-48 hours of booking, you fill out a detailed intake form about your brand, challenges, and vision."
+            },
+            {
+              "number": 2,
+              "title": "My Pre-Work (I do this)",
+              "description": "I review your intake, audit your online presence, research competitors, and prepare strategic questions."
+            },
+            {
+              "number": 3,
+              "title": "Confirmation Email",
+              "description": "I send session details, meeting link, and set clear expectations so you know exactly what to prepare."
+            }
+          ]
+        },
+        {
+          "title": "Phase 3: The Intensive Session",
+          "steps": [
+            {
+              "number": 1,
+              "title": "Hour 1: Discovery",
+              "description": "We dive deep into your story, vision, and what makes you unique. I ask hard questions. You get honest about where you are."
+            },
+            {
+              "number": 2,
+              "title": "Hour 2: Definition",
+              "description": "We craft your positioning statement, build your messaging framework, and define your brand voice."
+            },
+            {
+              "number": 3,
+              "title": "Hour 3: Direction",
+              "description": "We explore visual direction, map content themes, and create your communication strategy."
+            },
+            {
+              "number": 4,
+              "title": "Hour 4: Implementation",
+              "description": "We build your 60-day roadmap, prioritize quick wins, and ensure you leave with confidence and clarity."
+            }
+          ]
+        },
+        {
+          "title": "Phase 4: Blueprint Delivery",
+          "description": "Within 3-5 Days: You receive your Brand Clarity Blueprint—a comprehensive PDF with all frameworks, strategic recommendations, and implementation guidance."
+        },
+        {
+          "title": "Phase 5: Follow-Up & Support",
+          "steps": [
+            {
+              "title": "1-2 Weeks Later",
+              "description": "We hop on a 1-hour call to review your progress, answer questions, and refine anything that needs adjustment."
+            },
+            {
+              "title": "Ongoing",
+              "description": "You have email support for the agreed period (7-14 days depending on tier)."
+            }
+          ]
+        }
+      ],
+      "whatHappensNext": {
+        "headline": "What Happens Next?",
+        "description": "Most clients then:",
+        "actions": [
+          "Update all profiles with new messaging",
+          "Hire a designer for visual execution (I can recommend)",
+          "Launch content using the messaging framework",
+          "Book ongoing retainer support",
+          "Implement with confidence and momentum"
+        ]
+      }
+    },
+    "portfolio": {
+      "meta": {
+        "title": "Portfolio & Case Studies | MonnyCreaX",
+        "description": "Real transformations and results from brand strategy work with founders, speakers, and thought leaders."
+      },
+      "header": {
+        "headline": "Work & Impact",
+        "subheadline": "Real transformations. Real results."
+      },
+      "categories": [
+        "Founders & Startups",
+        "Speakers & Thought Leaders",
+        "Ministry & Faith-Based",
+        "Consultants & Coaches",
+        "Institutions & Organizations"
+      ],
+      "caseStudies": [
+        {
+          "id": 1,
+          "clientName": "[Client Name/Type]",
+          "category": "Founders & Startups",
+          "challenge": "[Brief description of their problem—scattered messaging, unclear positioning, etc.]",
+          "solution": "[What you did—Brand Clarity Intensive, specific frameworks, strategic decisions]",
+          "results": "[Measurable outcomes—increased inquiries, clearer messaging, successful launch, etc.]",
+          "testimonial": {
+            "quote": "[Direct quote from client]",
+            "author": "[Client Name, Title]"
+          },
+          "cta": {
+            "text": "View Full Case Study",
+            "link": "#"
+          }
+        }
+      ]
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact MonnyCreaX - Let's Talk About Your Brand",
+        "description": "Ready to clarify your brand? Book a Brand Clarity Intensive or get in touch with Bethwel Monny at MonnyCreaX. Serving founders, speakers, and thought leaders."
+      },
+      "hero": {
+        "headline": "Let's Talk About Your Brand",
+        "subheadline": "Ready to move from confusion to clarity? Start here."
+      },
+      "contactOptions": [
+        {
+          "title": "Fastest Response",
+          "method": "Instagram DM",
+          "value": "@monnycreax",
+          "instruction": "Send me \"CLARITY\" and let's start the conversation.",
+          "link": "https://instagram.com/monnycreax"
+        },
+        {
+          "method": "Email",
+          "value": "monnybethwel@gmail.com",
+          "instruction": "I typically respond within 4-24 hours.",
+          "link": "mailto:monnybethwel@gmail.com"
+        },
+        {
+          "method": "WhatsApp (For Serious Inquiries)",
+          "value": "+254 758 434 092",
+          "instruction": "Business hours: Mon-Fri, 9am-6pm EAT",
+          "link": "https://wa.me/254758434092"
+        }
+      ],
+      "contactForm": {
+        "fields": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "service",
+            "label": "Service Interested In",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Intensive",
+              "Retainer",
+              "Audit",
+              "Not Sure"
+            ]
+          },
+          {
+            "name": "challenge",
+            "label": "Tell me about your brand challenge",
+            "type": "textarea",
+            "required": true
+          },
+          {
+            "name": "timeline",
+            "label": "Timeline",
+            "type": "select",
+            "required": false,
+            "options": [
+              "Urgent",
+              "1-2 weeks",
+              "1 month",
+              "Just exploring"
+            ]
+          },
+          {
+            "name": "budget",
+            "label": "Budget Range",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "submitButton": "Send Message",
+        "note": "I read every message personally and respond within 24 hours on business days."
+      },
+      "officeHours": {
+        "headline": "Office Hours & Availability",
+        "workingHours": "Monday - Friday: 9:00 AM - 6:00 PM (EAT)",
+        "saturday": "Limited availability",
+        "sunday": "Closed",
+        "location": "Nairobi, Kenya",
+        "servingClients": "East Africa, Africa, and globally (English-speaking)"
+      },
+      "bookingCalendar": {
+        "headline": "Book a Free 15-Minute Consultation",
+        "body": "Not sure which service you need? Let's hop on a quick call to discuss your challenge and see if we're a good fit.",
+        "cta": {
+          "text": "View Available Times",
+          "link": "#"
+        }
+      }
+    },
+    "faq": {
+      "meta": {
+        "title": "Frequently Asked Questions | MonnyCreaX",
+        "description": "Common questions about brand strategy services, process, pricing, and working with MonnyCreaX."
+      },
+      "sections": [
+        {
+          "title": "General Questions",
+          "questions": [
+            {
+              "question": "What makes you different from other brand designers?",
+              "answer": "I'm not a brand designer—I'm a brand strategist. I don't start with logos or colors. I start with clarity: Who are you? What do you stand for? Who are you speaking to? Design comes after strategy, not before."
+            },
+            {
+              "question": "Do you work with clients outside Kenya?",
+              "answer": "Yes. All sessions are virtual, and I work with clients across Africa and globally."
+            },
+            {
+              "question": "How soon can we start?",
+              "answer": "Typically within 1-2 weeks of payment, depending on current availability. I limit intensives to 4 per month to maintain quality."
+            },
+            {
+              "question": "Do you offer payment plans?",
+              "answer": "For intensives, full payment is required upfront. For retainers, we can discuss monthly billing."
+            }
+          ]
+        },
+        {
+          "title": "Service-Specific Questions",
+          "questions": [
+            {
+              "question": "What's included in the Brand Clarity Intensive?",
+              "answer": "A 3-4 hour strategy session, comprehensive Brand Clarity Blueprint (PDF), 60-day implementation roadmap, and a 1-hour follow-up call. Full details on the Services page."
+            },
+            {
+              "question": "What if I need design work after the intensive?",
+              "answer": "Strategy and design are separate. After your intensive, I can recommend excellent designers for execution, or we can discuss design as a separate project."
+            },
+            {
+              "question": "Can I bring team members to the session?",
+              "answer": "Yes, up to 2 additional stakeholders can join at no extra cost. More than that, there's a small additional fee."
+            },
+            {
+              "question": "What if I'm not satisfied?",
+              "answer": "If you show up prepared, engage honestly, and we still don't deliver value, I'll refund 50%. This has never happened."
+            },
+            {
+              "question": "Do you do logo design?",
+              "answer": "Not as my primary service. I focus on strategy and direction. If you need logo design after we clarify your brand, I can recommend talented designers or discuss it as an add-on."
+            }
+          ]
+        },
+        {
+          "title": "Process Questions",
+          "questions": [
+            {
+              "question": "How long does the intensive take?",
+              "answer": "The session itself is 3-4 hours. From booking to final delivery (including follow-up call), plan for 2-3 weeks total."
+            },
+            {
+              "question": "What do I need to prepare?",
+              "answer": "Just complete the intake form honestly and show up ready to think deeply about your brand. I handle all the strategic prep."
+            },
+            {
+              "question": "Can we split the session into multiple days?",
+              "answer": "Yes, if needed. Some clients prefer 2x 2-hour sessions instead of one 4-hour session."
+            }
+          ]
+        },
+        {
+          "title": "Investment Questions",
+          "questions": [
+            {
+              "question": "Why are your prices higher than typical designers?",
+              "answer": "Because I'm not selling design hours—I'm selling strategic transformation. Thinking is more valuable than execution. You're investing in clarity that compounds for years."
+            },
+            {
+              "question": "Do you offer discounts?",
+              "answer": "I occasionally offer early-bird pricing or package deals, but I don't discount my core services. Quality work requires proper investment."
+            },
+            {
+              "question": "What payment methods do you accept?",
+              "answer": "M-Pesa, bank transfer, PayPal, and Wise for international clients."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "MonnyCreaX",
+        "tagline": "Where Clarity Meets Creativity",
+        "description": "Brand strategy and direction for founders, speakers, and thought leaders.",
+        "location": "Based in Nairobi, Kenya",
+        "serving": "Serving clients globally"
+      },
+      {
+        "title": "Services",
+        "links": [
+          {
+            "text": "Brand Clarity Intensive",
+            "link": "/services#intensive"
+          },
+          {
+            "text": "Brand Strategy Retainer",
+            "link": "/services#retainer"
+          },
+          {
+            "text": "Brand Audit & Consultation",
+            "link": "/services#audit"
+          },
+          {
+            "text": "Speaking & Workshops",
+            "link": "/services#addons"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "text": "About",
+            "link": "/about"
+          },
+          {
+            "text": "Process",
+            "link": "/process"
+          },
+          {
+            "text": "Portfolio",
+            "link": "/portfolio"
+          },
+          {
+            "text": "Contact",
+            "link": "/contact"
+          },
+          {
+            "text": "FAQ",
+            "link": "/faq"
+          }
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          {
+            "text": "Instagram: @monnycreax",
+            "link": "https://instagram.com/monnycreax"
+          },
+          {
+            "text": "LinkedIn",
+            "link": "#"
+          },
+          {
+            "text": "Email: monnybethwel@gmail.com",
+            "link": "mailto:monnybethwel@gmail.com"
+          },
+          {
+            "text": "WhatsApp: +254 758 434 092",
+            "link": "https://wa.me/254758434092"
+          }
+        ]
+      }
+    ],
+    "bottomBar": {
+      "copyright": "© 2026 MonnyCreaX. All rights reserved.",
+      "links": [
+        {
+          "text": "Privacy Policy",
+          "link": "/privacy"
+        },
+        {
+          "text": "Terms of Service",
+          "link": "/terms"
+        }
+      ]
+    }
+  },
+  "ctaVariations": {
+    "primary": [
+      "Book Brand Clarity Intensive",
+      "Start Here",
+      "Let's Get Clear",
+      "Schedule Consultation",
+      "Get Started"
+    ],
+    "secondary": [
+      "Learn More",
+      "View Services",
+      "Read Case Studies",
+      "Send a Message",
+      "Download Guide"
+    ]
+  },
+  "brandIdentity": {
+    "colors": {
+      "primary": {
+        "name": "Deep Charcoal",
+        "hex": "#1C1C1C",
+        "description": "Authority, grounding"
+      },
+      "secondary": {
+        "name": "Soft Gold",
+        "hex": "#D4AF37",
+        "description": "Premium, African warmth"
+      },
+      "tertiary": {
+        "name": "Clay Beige",
+        "hex": "#EAE2D6",
+        "description": "Organic, approachable"
+      },
+      "background": {
+        "name": "Off White",
+        "hex": "#F7F7F4",
+        "description": "Clean, clarity"
+      },
+      "accent": {
+        "name": "Sage Olive",
+        "hex": "#8A977B",
+        "description": "Growth, calm"
+      }
+    },
+    "typography": {
+      "headlines": "Playfair Display",
+      "body": "Inter or DM Sans",
+      "accent": "Space Grotesk"
+    },
+    "visualAesthetic": [
+      "Minimal but Warm",
+      "African Sophistication",
+      "Strategic Simplicity",
+      "Editorial Style"
+    ]
+  },
+  "coreValues": [
+    {
+      "title": "Authenticity Over Perfection",
+      "description": "Real beats polished. Honest beats hyped."
+    },
+    {
+      "title": "Clarity Over Creativity",
+      "description": "If it's beautiful but confusing, it failed."
+    },
+    {
+      "title": "Strategy Over Speed",
+      "description": "Slow, intentional growth beats chaotic hustle."
+    },
+    {
+      "title": "Service Over Sales",
+      "description": "You help people see clearly. Revenue follows service."
+    },
+    {
+      "title": "Faith & Purpose",
+      "description": "Your work is ministry, not just business. You're called to this."
+    }
+  ],
+  "targetAudience": {
+    "primary": "Founders, Speakers, and Thought Leaders",
+    "demographics": {
+      "age": "28-50",
+      "location": "Kenya, East Africa, Global (English-speaking)",
+      "income": "$2,000-$10,000/month"
+    },
+    "painPoints": [
+      "Strong ideas but unclear messaging",
+      "Posting consistently but not converting",
+      "Explaining their vision repeatedly without clarity",
+      "Looking active but feeling ineffective",
+      "Ready to scale but brand won't support it"
+    ],
+    "wants": [
+      "Clear brand positioning",
+      "Confident communication",
+      "Professional credibility",
+      "Growth without confusion",
+      "Strategic direction, not just design"
+    ]
+  }
+}
+

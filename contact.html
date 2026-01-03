@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MonnyCreaX | Let's Talk About Your Brand</title>
+    <link rel="icon" type="image/png" href="favicon%20monnycreax%20gold.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles-dark.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h1>MonnyCreaX</h1>
+                    <span class="tagline">Where Clarity Meets Creativity</span>
+                </a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#testimonials">Portfolio</a></li>
+                <li class="nav-cta-li"><a href="contact.html" class="nav-cta">Book a Call</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-hero-headline">Let's Talk About Your Brand</h1>
+                <p class="page-hero-subheadline">Ready to move from confusion to clarity? Choose how you'd like to connect.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Options -->
+    <section class="contact-options">
+        <div class="container">
+            <div class="contact-methods">
+                <div class="contact-method featured">
+                    <div class="method-icon">📱</div>
+                    <h3>Fastest Response: WhatsApp</h3>
+                    <p class="method-value">+254758434092</p>
+                    <p class="method-instruction">Send "CLARITY" and let's start the conversation.</p>
+                    <p class="method-availability">Available: Mon-Fri, 9am-6pm EAT</p>
+                    <a href="https://wa.me/254758434092" class="btn btn-primary" target="_blank">Message on WhatsApp</a>
+                </div>
+                <div class="contact-method">
+                    <div class="method-icon">📧</div>
+                    <h3>Email (Within 24 Hours)</h3>
+                    <p class="method-value">monnybethwel@gmail.com</p>
+                    <p class="method-instruction">Perfect for detailed inquiries or if you prefer writing.</p>
+                    <a href="mailto:monnybethwel@gmail.com" class="btn btn-secondary">Send Email</a>
+                </div>
+                <div class="contact-method">
+                    <div class="method-icon">📸</div>
+                    <h3>Instagram DM</h3>
+                    <p class="method-value">@monnycreax</p>
+                    <p class="method-instruction">Quick questions? DM me directly.</p>
+                    <a href="https://instagram.com/monnycreax" class="btn btn-secondary" target="_blank">DM on Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-headline">Have Questions? Ask Here</h2>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone/WhatsApp</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label>What service are you interested in?</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="service" value="clarity">
+                            <span>Brand Clarity Session</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="service" value="support">
+                            <span>Monthly Support</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="service" value="audit">
+                            <span>Brand Audit</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="service" value="not-sure">
+                            <span>Not Sure Yet</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="challenge">Tell me about your brand challenge *</label>
+                    <textarea id="challenge" name="challenge" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>What's your timeline?</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="timeline" value="urgent">
+                            <span>Urgent (next 2 weeks)</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="timeline" value="soon">
+                            <span>Soon (this month)</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="timeline" value="flexible">
+                            <span>Flexible</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="timeline" value="exploring">
+                            <span>Just exploring</span>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Office Details -->
+    <section class="office-details">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-headline">Office Details</h2>
+            </div>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3>📍 Based In</h3>
+                    <p>Nairobi, Kenya 🇰🇪</p>
+                </div>
+                <div class="detail-card">
+                    <h3>🌍 Serving</h3>
+                    <p>Leaders globally</p>
+                </div>
+                <div class="detail-card">
+                    <h3>🕐 Working Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM (EAT)</p>
+                    <p>Saturday: Limited availability</p>
+                    <p>Sunday: Closed</p>
+                </div>
+                <div class="detail-card">
+                    <h3>⚡ Response Time</h3>
+                    <p>WhatsApp: Within 4 hours (business days)</p>
+                    <p>Email: Within 24 hours (business days)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Consultation -->
+    <section class="free-consultation">
+        <div class="container">
+            <div class="consultation-content">
+                <h2>Book a Free 15-Minute Chat</h2>
+                <p>Not sure which service you need?</p>
+                <p>Let's hop on a quick call. No pressure. Just clarity about next steps.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/254758434092?text=Hi%20Bethwel,%20I'd%20like%20to%20schedule%20a%2015-minute%20consultation" class="btn btn-primary" target="_blank">WhatsApp to Schedule</a>
+                    <a href="mailto:monnybethwel@gmail.com?subject=15-Minute Consultation Request" class="btn btn-secondary">Email to Schedule</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Happens After -->
+    <section class="contact-what-next">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-headline">What Happens After You Contact Me?</h2>
+            </div>
+            <div class="next-steps">
+                <div class="next-step">
+                    <div class="step-icon">1</div>
+                    <h3>I respond</h3>
+                    <p>Usually within 4 hours</p>
+                </div>
+                <div class="next-step">
+                    <div class="step-icon">2</div>
+                    <h3>We have a quick chat</h3>
+                    <p>15 minutes</p>
+                </div>
+                <div class="next-step">
+                    <div class="step-icon">3</div>
+                    <h3>If aligned, I send service details</h3>
+                    <p>Clear pricing and options</p>
+                </div>
+                <div class="next-step">
+                    <div class="step-icon">4</div>
+                    <h3>You book, we schedule, we start</h3>
+                    <p>Simple.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>MonnyCreaX</h3>
+                    <p class="tagline">Where Clarity Meets Creativity</p>
+                    <p>Brand strategy and direction for founders, speakers, and thought leaders.</p>
+                    <p class="location">📍 Nairobi, Kenya</p>
+                    <p class="location">🌍 Serving clients globally</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Brand Clarity Session</a></li>
+                        <li><a href="services.html">Monthly Strategy Support</a></li>
+                        <li><a href="services.html">Brand Audit</a></li>
+                        <li><a href="services.html">Speaking & Workshops</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="process.html">How It Works</a></li>
+                        <li><a href="index.html#testimonials">Success Stories</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://instagram.com/monnycreax" target="_blank">📸 Instagram: @monnycreax</a></li>
+                        <li><a href="mailto:monnybethwel@gmail.com">📧 monnybethwel@gmail.com</a></li>
+                        <li><a href="https://wa.me/254758434092" target="_blank">📱 +254 758 434 092</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MonnyCreaX. All rights reserved. | Where Clarity Meets Creativity</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="nav-script.js"></script>
+    <script>
+        // Contact Form Handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Create email body
+            const subject = encodeURIComponent('New Contact Form Submission - MonnyCreaX');
+            const body = encodeURIComponent(
+                `Name: ${data.name}\n` +
+                `Email: ${data.email}\n` +
+                `Phone: ${data.phone || 'Not provided'}\n` +
+                `Service Interest: ${Array.from(formData.getAll('service')).join(', ') || 'Not specified'}\n` +
+                `Timeline: ${data.timeline || 'Not specified'}\n\n` +
+                `Brand Challenge:\n${data.challenge}`
+            );
+            
+            // Open email client
+            window.location.href = `mailto:monnybethwel@gmail.com?subject=${subject}&body=${body}`;
+        });
+    </script>
+</body>
+</html>
+

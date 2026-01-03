@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonnyCreaX - Brand Strategy & Direction</title>
+    <link rel="icon" type="image/png" href="favicon%20monnycreax%20gold.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* MonnyCreaX Brand Colors - Dark Theme */
+        :root {
+            --charcoal: #0A0A0A;
+            --charcoal-light: #1A1A1A;
+            --charcoal-medium: #2A2A2A;
+            --gold: #D4AF37;
+            --gold-light: #E5C866;
+            --gold-dark: #B8941F;
+            --beige: #EAE2D6;
+            --beige-dark: #D4C8B8;
+            --off-white: #F5F5F0;
+            --sage: #8A977B;
+            --sage-light: #A8B59A;
+            --white: #FFFFFF;
+            --text-primary: #FFFFFF;
+            --text-secondary: #D4C8B8;
+            --text-muted: #8A977B;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-primary);
+            background-color: var(--charcoal);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            color: var(--text-primary);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        /* Navigation - Dark Theme */
+        .navbar {
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 1.8rem 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .navbar.scrolled {
+            padding: 1.2rem 0;
+            background: rgba(10, 10, 10, 0.98);
+            box-shadow: 0 4px 40px rgba(0,0,0,0.5);
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-brand {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .nav-brand h1 {
+            font-size: 1.9rem;
+            color: var(--text-primary);
+            margin: 0;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--gold) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-brand .tagline {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .nav-menu li {
+            position: relative;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            padding: 0.5rem 0;
+            display: block;
+        }
+
+        .nav-menu a::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 100%);
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .nav-menu a:hover {
+            color: var(--gold);
+            transform: translateY(-2px);
+        }
+
+        .nav-menu a:hover::before {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+            color: var(--charcoal);
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+            letter-spacing: 0.5px;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(212, 175, 55, 0.5);
+            background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 100%);
+        }
+
+        /* Hero Section - Dark */
+        .hero {
+            padding: 200px 0 140px;
+            background: linear-gradient(180deg, var(--charcoal) 0%, var(--charcoal-light) 50%, var(--charcoal) 100%);
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -10%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -20%;
+            left: -5%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(138, 151, 123, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            background: rgba(212, 175, 55, 0.15);
+            color: var(--gold);
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .hero-headline {
+            font-size: clamp(3.5rem, 9vw, 6.5rem);
+            color: var(--text-primary);
+            margin-bottom: 2.5rem;
+            font-weight: 900;
+            line-height: 1.05;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+
+        .hero-headline span {
+            display: block;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--gold) 50%, var(--gold-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subheadline {
+            font-size: clamp(1.3rem, 3vw, 1.8rem);
+            color: var(--text-secondary);
+            margin-bottom: 4rem;
+            font-weight: 400;
+            line-height: 1.7;
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-bottom: 5rem;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.8s ease 0.6s both;
+        }
+
+        .hero-supporting {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 850px;
+            margin: 0 auto;
+            line-height: 1.9;
+            opacity: 0.9;
+            animation: fadeInUp 0.8s ease 0.8s both;
+        }
+
+        /* Buttons - Dark Theme */
+        .btn {
+            padding: 1.15rem 2.8rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            min-width: 180px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+            color: var(--charcoal);
+            box-shadow: 0 6px 30px rgba(212, 175, 55, 0.4);
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 12px 45px rgba(212, 175, 55, 0.6);
+        }
+
+        .btn-primary:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary:active {
+            transform: translateY(-2px) scale(1);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 2px solid var(--gold);
+            box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background: var(--gold);
+            color: var(--charcoal);
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 8px 35px rgba(212, 175, 55, 0.5);
+            border-color: var(--gold-light);
+        }
+
+        .btn-secondary:active {
+            transform: translateY(-2px) scale(1);
+        }
+
+        /* Section Styles - Dark */
+        section {
+            padding: 120px 0;
+            position: relative;
+            width: 100%;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .section-tag {
+            display: inline-block;
+            color: var(--gold);
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            padding: 0.5rem 1.5rem;
+            background: rgba(212, 175, 55, 0.1);
+            border-radius: 50px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .section-headline {
+            font-size: clamp(3rem, 7vw, 5rem);
+            color: var(--text-primary);
+            margin-bottom: 2rem;
+            font-weight: 900;
+            line-height: 1.1;
+        }
+
+        .section-subheadline {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 0 auto;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        /* About Section - Dark */
+        .about-section {
+            background: var(--charcoal-light);
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 100px;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .about-text p {
+            margin-bottom: 2rem;
+        }
+
+        .about-text p:last-child {
+            margin-top: 2.5rem;
+            font-style: italic;
+            color: var(--gold);
+            font-size: 1.1rem;
+            border-left: 3px solid var(--gold);
+            padding-left: 2rem;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, var(--charcoal-medium) 0%, var(--charcoal-light) 100%);
+            padding: 2.5rem;
+            border-radius: 24px;
+            text-align: center;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(212, 175, 55, 0.3);
+            box-shadow: 0 12px 40px rgba(212, 175, 55, 0.2);
+        }
+
+        .stat-card:hover::before {
+            opacity: 1;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: var(--gold);
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+
+        /* Problem Section - Dark */
+        .problem-section {
+            background: var(--charcoal);
+        }
+
+        .problem-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 5rem;
+        }
+
+        .problem-card {
+            background: linear-gradient(135deg, var(--charcoal-light) 0%, var(--charcoal-medium) 100%);
+            padding: 3.5rem;
+            border-radius: 28px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .problem-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 100%);
+            transform: scaleX(0);
+            transition: transform 0.5s;
+        }
+
+        .problem-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 16px 60px rgba(212, 175, 55, 0.3);
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        .problem-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .problem-card h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            font-weight: 800;
+        }
+
+        .problem-card p {
+            color: var(--text-secondary);
+            line-height: 1.9;
+            font-size: 1.1rem;
+        }
+
+        .problem-cta-text {
+            text-align: center;
+            font-size: 1.3rem;
+            color: var(--gold);
+            margin-top: 4rem;
+            font-weight: 700;
+        }
+
+        /* Solution Section - Dark */
+        .solution-section {
+            background: var(--charcoal-light);
+        }
+
+        .pillars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 5rem;
+        }
+
+        .pillar {
+            background: linear-gradient(135deg, var(--charcoal-medium) 0%, var(--charcoal-light) 100%);
+            padding: 3.5rem;
+            border-radius: 28px;
+            border-left: 5px solid var(--gold);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+            border-top: 1px solid rgba(212, 175, 55, 0.1);
+            border-right: 1px solid rgba(212, 175, 55, 0.1);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pillar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .pillar:hover {
+            transform: translateY(-12px) scale(1.02);
+            box-shadow: 0 16px 60px rgba(212, 175, 55, 0.25);
+            border-color: var(--gold);
+        }
+
+        .pillar:hover::after {
+            opacity: 1;
+        }
+
+        .pillar h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+
+        .pillar p {
+            color: var(--text-secondary);
+            line-height: 1.9;
+            font-size: 1.1rem;
+        }
+
+        /* How It Works - Dark */
+        .how-it-works {
+            background: var(--charcoal);
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin-top: 5rem;
+        }
+
+        .step {
+            background: linear-gradient(135deg, var(--charcoal-light) 0%, var(--charcoal-medium) 100%);
+            padding: 3.5rem;
+            border-radius: 28px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .step:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 16px 60px rgba(212, 175, 55, 0.3);
+            border-color: rgba(212, 175, 55, 0.4);
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+            color: var(--charcoal);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin: 0 auto 2rem;
+            box-shadow: 0 8px 30px rgba(212, 175, 55, 0.4);
+            transition: all 0.4s;
+        }
+
+        .step:hover .step-number {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 12px 40px rgba(212, 175, 55, 0.6);
+        }
+
+        .step h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.2rem;
+            font-size: 1.7rem;
+            font-weight: 800;
+        }
+
+        .step p {
+            color: var(--text-secondary);
+            line-height: 1.9;
+            font-size: 1.1rem;
+        }
+
+        /* Services Overview - Dark */
+        .services-overview {
+            background: var(--charcoal-light);
+        }
+
+        .service-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 3rem;
+            margin-top: 5rem;
+        }
+
+        .service-card {
+            background: linear-gradient(135deg, var(--charcoal-medium) 0%, var(--charcoal-light) 100%);
+            padding: 4rem;
+            border-radius: 28px;
+            border-top: 5px solid var(--gold);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+            border-left: 1px solid rgba(212, 175, 55, 0.1);
+            border-right: 1px solid rgba(212, 175, 55, 0.1);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 20px 70px rgba(212, 175, 55, 0.3);
+            border-color: var(--gold);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-card h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+
+        .service-card .investment {
+            color: var(--gold);
+            font-size: 1.8rem;
+            font-weight: 900;
+            margin: 2rem 0;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .service-card p {
+            color: var(--text-secondary);
+            line-height: 1.9;
+            margin-bottom: 2rem;
+            font-size: 1.15rem;
+        }
+
+        .service-timeline {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            padding: 0.9rem 2rem;
+            background: rgba(212, 175, 55, 0.1);
+            border-radius: 50px;
+            display: inline-block;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        /* Testimonials - Dark */
+        .testimonials {
+            background: var(--charcoal);
+        }
+
+        .testimonial-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 3rem;
+            margin-top: 5rem;
+        }
+
+        .testimonial-card {
+            background: linear-gradient(135deg, var(--charcoal-light) 0%, var(--charcoal-medium) 100%);
+            padding: 3.5rem;
+            border-radius: 28px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: -10px;
+            left: 30px;
+            font-size: 8rem;
+            color: rgba(212, 175, 55, 0.2);
+            font-family: 'Playfair Display', serif;
+            line-height: 1;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 16px 60px rgba(212, 175, 55, 0.25);
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        .testimonial-card .quote {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            line-height: 2;
+            margin-bottom: 2.5rem;
+            font-style: italic;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-card .author {
+            color: var(--gold);
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .testimonial-card .title {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        /* Final CTA - Dark */
+        .final-cta {
+            background: linear-gradient(135deg, var(--charcoal) 0%, var(--charcoal-light) 100%);
+            color: var(--text-primary);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+            animation: pulse 10s ease-in-out infinite;
+        }
+
+        .final-cta .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .final-cta .section-headline {
+            color: var(--text-primary);
+        }
+
+        .final-cta .section-subheadline {
+            color: var(--text-secondary);
+            white-space: pre-line;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 4rem;
+            flex-wrap: wrap;
+        }
+
+        /* Footer - Dark */
+        .footer {
+            background: var(--charcoal);
+            color: var(--text-secondary);
+            padding: 100px 0 50px;
+            border-top: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 5rem;
+            margin-bottom: 5rem;
+        }
+
+        .footer-column h3,
+        .footer-column h4 {
+            color: var(--gold);
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        .footer-column p {
+            margin-bottom: 1rem;
+            line-height: 1.9;
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-column .tagline {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .footer-column .location {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            opacity: 0.8;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 1rem;
+        }
+
+        .footer-column ul li a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            display: inline-block;
+        }
+
+        .footer-column ul li a:hover {
+            color: var(--gold);
+            transform: translateX(5px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(212, 175, 55, 0.1);
+            padding-top: 2.5rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+        }
+
+        /* Mobile Menu Toggle */
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 32px;
+            height: 32px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            z-index: 1001;
+            position: relative;
+        }
+
+        .mobile-menu-toggle span {
+            width: 100%;
+            height: 3px;
+            background: var(--gold);
+            border-radius: 3px;
+            transition: all 0.3s ease;
+            transform-origin: center;
+        }
+
+        .mobile-menu-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(9px, 9px);
+        }
+
+        .mobile-menu-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-menu-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        /* Responsive - Dark Theme - Polished for All Devices */
+        @media (max-width: 1200px) {
+            .container {
+                padding: 0 50px;
+            }
+
+            .nav-menu {
+                gap: 2rem;
+            }
+
+            .nav-cta {
+                padding: 0.8rem 1.6rem;
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 40px;
+            }
+
+            .nav-menu {
+                gap: 1.8rem;
+            }
+
+            .nav-menu a {
+                font-size: 0.9rem;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 5rem;
+            }
+
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 4rem;
+            }
+
+            .hero {
+                padding: 180px 0 120px;
+            }
+
+            .hero-headline {
+                font-size: clamp(2.5rem, 7vw, 5rem);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 30px;
+            }
+
+            /* Mobile Navigation */
+            .mobile-menu-toggle {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 10, 0.98);
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+                padding: 2rem 0;
+                border-top: 1px solid rgba(212, 175, 55, 0.1);
+                box-shadow: 0 10px 50px rgba(0,0,0,0.8);
+                transform: translateY(-100%);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                z-index: 999;
+                max-height: calc(100vh - 80px);
+                overflow-y: auto;
+            }
+
+            .nav-menu.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .nav-menu li {
+                margin: 0;
+                border-bottom: 1px solid rgba(212, 175, 55, 0.05);
+            }
+
+            .nav-menu li:last-child {
+                border-bottom: none;
+            }
+
+            .nav-menu a {
+                padding: 1.2rem 2rem;
+                font-size: 1rem;
+                color: var(--text-primary);
+                display: block;
+                width: 100%;
+            }
+
+            .nav-menu a::before {
+                display: none;
+            }
+
+            .nav-menu a:hover {
+                background: rgba(212, 175, 55, 0.1);
+                color: var(--gold);
+                transform: none;
+                padding-left: 2.5rem;
+            }
+
+            .nav-cta-li {
+                margin: 0;
+                padding: 1rem 2rem;
+                background: rgba(212, 175, 55, 0.1);
+            }
+
+            .nav-cta {
+                width: 100%;
+                text-align: center;
+                padding: 1rem 2rem;
+                font-size: 1rem;
+                margin: 0;
+            }
+
+            .nav-brand h1 {
+                font-size: 1.6rem;
+            }
+
+            .nav-brand .tagline {
+                font-size: 0.7rem;
+            }
+
+            .navbar {
+                padding: 1.2rem 0;
+            }
+
+            .navbar.scrolled {
+                padding: 1rem 0;
+            }
+
+            .hero {
+                padding: 140px 0 80px;
+                min-height: auto;
+            }
+
+            .hero-headline {
+                font-size: clamp(2.2rem, 8vw, 4rem);
+                margin-bottom: 1.5rem;
+            }
+
+            .hero-subheadline {
+                font-size: clamp(1.1rem, 4vw, 1.4rem);
+                margin-bottom: 2.5rem;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: stretch;
+                margin-bottom: 3rem;
+            }
+
+            .hero-supporting {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .section-header {
+                margin-bottom: 40px;
+            }
+
+            .section-headline {
+                font-size: clamp(2rem, 6vw, 3.5rem);
+            }
+
+            .section-subheadline {
+                font-size: 1.1rem;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 100%;
+                text-align: center;
+                padding: 1.1rem 2rem;
+                font-size: 1rem;
+            }
+
+            .problem-cards,
+            .pillars,
+            .steps,
+            .service-cards,
+            .testimonial-cards {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
+            .about-stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+            }
+
+            .stat-card {
+                padding: 2rem;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 0 20px;
+            }
+
+            .nav-brand h1 {
+                font-size: 1.4rem;
+            }
+
+            .nav-brand .tagline {
+                font-size: 0.65rem;
+            }
+
+            .hero {
+                padding: 120px 0 60px;
+            }
+
+            .hero-headline {
+                font-size: clamp(1.8rem, 7vw, 3rem);
+            }
+
+            .hero-subheadline {
+                font-size: clamp(1rem, 4vw, 1.2rem);
+            }
+
+            .hero-tag {
+                font-size: 0.75rem;
+                padding: 0.5rem 1.2rem;
+            }
+
+            section {
+                padding: 50px 0;
+            }
+
+            .section-headline {
+                font-size: clamp(1.8rem, 6vw, 2.8rem);
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .stat-card {
+                padding: 1.5rem;
+            }
+
+            .problem-card,
+            .pillar,
+            .step,
+            .service-card,
+            .testimonial-card {
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .nav-brand h1 {
+                font-size: 1.2rem;
+            }
+
+            .hero-headline {
+                font-size: 1.8rem;
+            }
+
+            .hero-subheadline {
+                font-size: 1rem;
+            }
+
+            .btn {
+                padding: 1rem 1.5rem;
+                font-size: 0.95rem;
+            }
+
+            .problem-card,
+            .pillar,
+            .step,
+            .service-card,
+            .testimonial-card {
+                padding: 1.5rem;
+            }
+
+            .section-headline {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* Prevent body scroll when menu is open */
+        body.menu-open {
+            overflow: hidden;
+        }
+
+        /* iOS Safari specific fixes */
+        @supports (-webkit-touch-callout: none) {
+            .hero {
+                min-height: -webkit-fill-available;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>MonnyCreaX</h1>
+                <span class="tagline">Where Clarity Meets Creativity</span>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#testimonials">Portfolio</a></li>
+                <li class="nav-cta-li"><a href="contact.html" class="nav-cta">Book a Call</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-tag">NEW</div>
+                <h1 class="hero-headline">
+                    <span>Your Brand Should</span>
+                    <span>Make Sense</span>
+                </h1>
+                <p class="hero-subheadline">Brand strategy for founders, speakers, and leaders who have strong ideas but unclear messaging.</p>
+                <div class="hero-cta">
+                    <a href="contact.html" class="btn btn-primary">Get Brand Clarity</a>
+                    <a href="process.html" class="btn btn-secondary">How It Works</a>
+                </div>
+                <p class="hero-supporting">You work hard. You show up. You post consistently.<br><br>But people don't understand what you do. They engage but don't convert. You explain yourself differently every time.<br><br>The problem isn't your talent. It's clarity.<br><br>We fix that.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">About us</div>
+                <h2 class="section-headline">Strategy Before Aesthetics.<br>Clarity Before Creativity.</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm Bethwel Monny, a brand strategist who helps leaders build brands that don't just look good—they make sense.</p>
+                    <p>At MonnyCreaX, I don't start with logos or colors. I start with the hard questions: Who are you? What do you stand for? Why should anyone care?</p>
+                    <p>Because beautiful design without strategic foundation is just decoration. And your brand deserves more than that.</p>
+                    <p>African creativity meets global strategy. Purpose-driven branding for leaders who are ready to communicate with confidence.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Brands Satisfied</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Countries Served</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem-section" class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-headline">Three Signs You Need<br>Strategic Clarity</h2>
+            </div>
+            <div class="problem-cards">
+                <div class="problem-card">
+                    <h3>You're Busy But Not Converting</h3>
+                    <p>You post. You work. You hustle.<br>But inquiries are low. Sales are flat.<br>Activity without clarity = noise.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>You Can't Explain Your Value Quickly</h3>
+                    <p>When someone asks "What do you do?" you stumble.<br>You give long explanations. They still look confused.<br>If YOU can't say it clearly, they can't understand it.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>You're Ready to Grow But Your Brand Can't Support It</h3>
+                    <p>You have the skills and the vision.<br>But your messaging is holding you back.<br>Scaling needs a solid foundation first.</p>
+                </div>
+            </div>
+            <p class="problem-cta-text">If these sound familiar, you don't need more content.<br>You need strategic clarity.</p>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="contact.html" class="btn btn-primary">Book Your Clarity Session →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution-section" class="solution-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-headline">We Help You Get Clear.<br>Fast.</h2>
+                <p class="section-subheadline">MonnyCreaX helps leaders turn scattered ideas into clear, credible brands through focused strategy sessions.<br><br>No guessing. No confusion. Just clarity you can implement immediately.</p>
+            </div>
+            <div class="pillars">
+                <div class="pillar">
+                    <h3>1. Strategy Before Design</h3>
+                    <p>Most start with logos. We start with questions:<br>→ Who are you serving?<br>→ What problem do you solve?<br>→ Why should they choose you?<br><br>Clear answers first. Beautiful design second.</p>
+                </div>
+                <div class="pillar">
+                    <h3>2. Simple Language, Deep Thinking</h3>
+                    <p>We use plain English. No jargon. No complexity.<br>Even a child could understand your brand after we're done.</p>
+                </div>
+                <div class="pillar">
+                    <h3>3. Results You Can Implement</h3>
+                    <p>You don't get vague advice. You get:<br>→ Clear positioning statement<br>→ Exact words to use<br>→ Step-by-step roadmap<br>→ Confidence to move forward</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">How We Work?</div>
+                <h2 class="section-headline">We Simplify The Journey<br>From Strategy To Clarity.</h2>
+                <p class="section-subheadline">We make it easy to bring your ideas to life, guiding you from concept to a fully launched Brand.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>You Book</h3>
+                    <p>Choose your session. Pay. We schedule a date.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>You Prepare</h3>
+                    <p>Fill out a simple form about your brand. Takes 30 minutes.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>We Meet (3-4 Hours)</h3>
+                    <p>Video call. We ask strategic questions. You answer honestly. Together we build your brand clarity.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>You Get Your Blueprint (3-5 Days Later)</h3>
+                    <p>Everything documented in a professional PDF: Who you serve, what makes you different, how to communicate it, what to do next (60-day plan).</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Follow-Up Call</h3>
+                    <p>We meet again to answer questions and ensure you're confident.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 4rem;">
+                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 2rem;"><strong>Total Time:</strong> 2-3 weeks from start to finish.</p>
+                <a href="contact.html" class="btn btn-primary">Start Now →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="services-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-headline">Simple Pricing</h2>
+                <p class="section-subheadline">Clear Services. Clear Pricing.</p>
+            </div>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>Option 1: Rapid Clarity</h3>
+                    <div class="investment">$500</div>
+                    <p>Perfect if you're just starting or have a tight budget.</p>
+                    <ul style="list-style: none; text-align: left; margin: 1.5rem 0;">
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ 2-3 hour session</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ Essential clarity document</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ 30-day action plan</li>
+                        <li style="color: var(--text-secondary);">→ Email support (7 days)</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary">Book This →</a>
+                </div>
+                <div class="service-card" style="border-color: var(--gold); transform: scale(1.05);">
+                    <div style="background: var(--gold); color: var(--charcoal); padding: 0.5rem 1.5rem; border-radius: 50px; display: inline-block; margin-bottom: 1rem; font-weight: 700; font-size: 0.85rem;">⭐ Most Popular</div>
+                    <h3>Option 2: Complete Clarity</h3>
+                    <div class="investment">$750</div>
+                    <p>Full depth. Complete blueprint. Everything you need.</p>
+                    <ul style="list-style: none; text-align: left; margin: 1.5rem 0;">
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ 3-4 hour session</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ Comprehensive Brand Blueprint (PDF)</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ 60-day implementation roadmap</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ 1-hour follow-up call</li>
+                        <li style="color: var(--text-secondary);">→ Email support (14 days)</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Book This →</a>
+                </div>
+                <div class="service-card">
+                    <h3>Option 3: Premium Clarity + Support</h3>
+                    <div class="investment">$1,200</div>
+                    <p>For leaders who want ongoing guidance.</p>
+                    <ul style="list-style: none; text-align: left; margin: 1.5rem 0;">
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ Extended 5-hour session</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ Complete blueprint</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ 3 monthly check-in calls</li>
+                        <li style="color: var(--text-secondary); margin-bottom: 0.8rem;">→ Basic visual mockups</li>
+                        <li style="color: var(--text-secondary);">→ Priority support (30 days)</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary">Book This →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Results</div>
+                <h2 class="section-headline">Delivering Tangible Results<br>That Propel Your Success</h2>
+                <p class="section-subheadline">At the core of everything we do lies a commitment to delivering measurable outcomes that drive your success.</p>
+            </div>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p class="quote">"Bethwel didn't just design our brand—he helped us understand who we are. The clarity he brought transformed how we communicate with our audience."</p>
+                    <div>
+                        <div class="author">— [Client Name]</div>
+                        <div class="title">[Title/Company]</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"Professional, strategic, and incredibly thoughtful. MonnyCreaX delivered beyond our expectations."</p>
+                    <div>
+                        <div class="author">— [Client Name]</div>
+                        <div class="title">[Title/Company]</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"I went from explaining my business in 10 different ways to having ONE clear message that actually lands."</p>
+                    <div>
+                        <div class="author">— [Client Name]</div>
+                        <div class="title">Founder</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="final-cta" class="final-cta">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-headline">Stop Guessing. Start Growing.</h2>
+                <p class="section-subheadline">You've read this far because something resonated.<br><br>Maybe you're tired of explaining yourself repeatedly. Maybe you're ready to scale but your brand won't support it. Maybe you just know something needs to change.<br><br>Here's what I know: <strong style="color: var(--gold);">Clarity changes everything.</strong><br><br>When your message is clear: People understand immediately. The right clients find you. Conversations convert faster. Growth becomes easier.<br><br><strong style="color: var(--gold);">This is your moment.</strong><br><br>Two choices:<br>1. Keep guessing and hoping it clicks<br>2. Get strategic clarity in the next 2 weeks<br><br><strong style="color: var(--gold);">Choose clarity.</strong></p>
+            </div>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Book Your Brand Clarity Session</a>
+                <a href="https://wa.me/254758434092" class="btn btn-secondary" target="_blank">WhatsApp Me: +254758434092</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>MonnyCreaX</h3>
+                    <p class="tagline">Where Clarity Meets Creativity</p>
+                    <p>Brand strategy and direction for founders, speakers, and thought leaders.</p>
+                    <p class="location">Based in Nairobi, Kenya</p>
+                    <p class="location">Serving clients globally</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Brand Clarity Session</a></li>
+                        <li><a href="services.html">Monthly Strategy Support</a></li>
+                        <li><a href="services.html">Brand Audit</a></li>
+                        <li><a href="services.html">Speaking & Workshops</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="process.html">How It Works</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://instagram.com/monnycreax" target="_blank">Instagram: @monnycreax</a></li>
+                        <li><a href="mailto:monnybethwel@gmail.com">Email: monnybethwel@gmail.com</a></li>
+                        <li><a href="https://wa.me/254758434092" target="_blank">WhatsApp: +254 758 434 092</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MonnyCreaX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="nav-script.js"></script>
+</body>
+</html>
